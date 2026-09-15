@@ -1,1 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project ANGEL — Applied Immortality</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@300;400;500&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a12;color:#e2e8f0;font-family:'Inter',system-ui,sans-serif;line-height:1.75;min-height:100vh}
+body[dir=rtl]{direction:rtl;text-align:right}
+.lang-bar{position:sticky;top:0;z-index:300;background:rgba(10,10,18,.97);backdrop-filter:blur(12px);border-bottom:1px solid #1e1e2e;padding:11px 0;text-align:center}
+.lang-btns{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;max-width:980px;margin:0 auto;padding:0 10px}
+.lang-btn{background:#1e1e2e;border:1px solid #3f3f5a;color:#a5b4fc;padding:5px 11px;border-radius:20px;cursor:pointer;font-size:.82rem;transition:.2s}
+.lang-btn:hover,.lang-btn.active{background:#7c3aed;color:#fff;border-color:#7c3aed}
+nav{background:rgba(15,15,25,.92);border-bottom:1px solid #1e1e2e;padding:11px 0}
+.nav-inner{max-width:1100px;margin:0 auto;padding:0 14px;display:flex;flex-wrap:wrap;gap:5px 11px;justify-content:center}
+nav a{color:#a5b4fc;text-decoration:none;font-size:.86rem;padding:4px 9px;border-radius:6px}
+nav a:hover{background:rgba(124,58,237,.25);color:#c4b5fd}
+.wrap{max-width:860px;margin:0 auto;padding:42px 20px 80px}
+header{text-align:center;margin-bottom:38px}
+.logo{font-family:'Orbitron',sans-serif;font-size:2.6rem;font-weight:700;letter-spacing:3px;background:linear-gradient(90deg,#a78bfa,#60a5fa,#34d399);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+.sub{font-size:1rem;color:#94a3b8;letter-spacing:2px;text-transform:uppercase}
+.line{height:1px;background:linear-gradient(90deg,transparent,#7c3aed,transparent);margin:32px 0}
+section{margin-bottom:55px;scroll-margin-top:130px}
+h2{font-family:'Orbitron',sans-serif;font-size:1.35rem;color:#c4b5fd;margin-bottom:16px;border-bottom:1px solid #2e2e3e;padding-bottom:7px}
+p{margin-bottom:15px;font-size:1.05rem;color:#cbd5e1}
+.box{background:rgba(124,58,237,.12);border-left:3px solid #7c3aed;padding:16px 18px;margin:20px 0;border-radius:0 8px 8px 0}
+body[dir=rtl] .box{border-left:none;border-right:3px solid #7c3aed;border-radius:8px 0 0 8px}
+footer{margin-top:40px;text-align:center;color:#64748b;font-size:.9rem;border-top:1px solid #1e1e2e;padding-top:22px}
+a{color:#818cf8;text-decoration:none}a:hover{color:#a5b4fc;text-decoration:underline}
+.lang-block{display:none}.lang-block.active{display:block}
+@media(max-width:700px){.logo{font-size:1.9rem}.lang-btn{font-size:.75rem;padding:4px 8px}}
+</style>
+</head>
+<body>
 
+<div class="lang-bar">
+  <div class="lang-btns">
+    <button class="lang-btn active" data-lang="en">🇬🇧 English</button>
+    <button class="lang-btn" data-lang="ru">🇷🇺 Русский</button>
+    <button class="lang-btn" data-lang="zh">🇨🇳 中文</button>
+    <button class="lang-btn" data-lang="ar">🇸🇦 العربية</button>
+    <button class="lang-btn" data-lang="fr">🇫🇷 Français</button>
+    <button class="lang-btn" data-lang="es">🇪🇸 Español</button>
+    <button class="lang-btn" data-lang="ja">🇯🇵 日本語</button>
+    <button class="lang-btn" data-lang="ko">🇰🇷 한국어</button>
+    <button class="lang-btn" data-lang="de">🇩🇪 Deutsch</button>
+    <button class="lang-btn" data-lang="it">🇮🇹 Italiano</button>
+  </div>
+</div>
+
+<nav><div class="nav-inner" id="nav"></div></nav>
+
+<div class="wrap">
+
+<!-- ========== ENGLISH (improved) ========== -->
+<div class="lang-block active" data-lang="en">
+  <section id="s1">
+    <header>
+      <div class="logo">PROJECT ANGEL</div>
+      <div class="sub">Applied Immortality</div>
+    </header>
+    <div class="line"></div>
+    <h2>1. Introduction</h2>
+    <p>“Applied immortality” means the infinite existence of personal human consciousness and intellect, with the ability to communicate with the outer world and other people, and to endlessly store knowledge and experience.</p>
+  </section>
+  <section id="s2">
+    <h2>2. Why So Few Care</h2>
+    <p>Few people truly concern themselves with this subject. Either they do not believe it is possible, or they believe in something else — life after death, reincarnation, and so on.</p>
+  </section>
+  <section id="s3">
+    <h2>3. The Most Promising Path</h2>
+    <p>I believe the most promising way to achieve it is scientific progress in the fields of neurocybernetics, biotechnology, genetics, human cloning, and artificial intelligence.</p>
+  </section>
+  <section id="s4">
+    <h2>4. Limits of Current Medicine</h2>
+    <p>At present, all progress in medicine cannot guarantee more than 100–120 years of life. There also exists the idea of “freezing” a body and waiting for many centuries until medicine can revive it. I regard this as science fiction, yet the underlying reasoning is generally sound — we need some way to bridge the gap until the future delivers everything we need.</p>
+  </section>
+  <section id="s5">
+    <h2>5. Living Instead of Freezing</h2>
+    <p>There is no need to spend that intervening period frozen. We would much rather live, study and work throughout that time.</p>
+  </section>
+  <section id="s6">
+    <h2>6. Cybernetic Existence</h2>
+    <p>Today, within the next 30–40 years of our lives, the only realistic chance to reach the immortality of the future is cybernetic existence. An artificial intellect is almost created, or will be created, in this period. This means, among other things, the creation of an artificial brain (cerebrum) which, unlike an artificial heart or kidney, can give us true immortality of consciousness — an everlasting soul.</p>
+  </section>
+  <section id="s7">
+    <h2>7. The Core Problem — Transfer of the Soul</h2>
+    <div class="box">
+      <p>The main problem is the transfer of the so-called Soul to an electronic carrier. It is not enough merely to copy one’s memory and thoughts onto a hard disk. Doing so would only clone one’s consciousness and create an electronic double of oneself.</p>
+      <p>Where is the soul? Should the body die, or simply fall asleep, when consciousness leaves it for the electronic matrix? And later, in a dozen centuries, when it becomes possible to download it back into a body genetically engineered from one’s own DNA code (or into any other body of one’s choice! :)</p>
+    </div>
+  </section>
+  <section id="s8">
+    <h2>8. Summary of the Idea</h2>
+    <p>These, in brief, are my thoughts on “applied immortality”.</p>
+  </section>
+  <section id="s9">
+    <h2>9. Invitation to Discussion</h2>
+    <p>I will appreciate your messages, ideas or comments of any character — scientific, religious or moral — on this topic.</p>
+  </section>
+  <section id="s10">
+    <h2>10. Original Source</h2>
+    <p>Original page archived on 12 March 2005:<br>
+    <a href="https://web.archive.org/web/20050312170051/http://www.archangel2002.angelcities.com/" target="_blank">web.archive.org/.../archangel2002.angelcities.com</a></p>
+  </section>
+</div>
+
+<!-- ========== RUSSIAN ========== -->
+<div class="lang-block" data-lang="ru">
+  <section id="s1">
+    <header><div class="logo">ПРОЕКТ АНГЕЛ</div><div class="sub">Практическое бессмертие</div></header>
+    <div class="line"></div>
+    <h2>1. Введение</h2>
+    <p>«Практическое бессмертие» — это бесконечное существование личного человеческого сознания и интеллекта с возможностью общаться с внешним миром и людьми, а также бесконечно накапливать знания и опыт.</p>
+  </section>
+  <section id="s2"><h2>2. Почему так мало кто заботится</h2><p>Мало кто по-настоящему беспокоится об этом. Либо не верят, что это возможно, либо верят во что-то другое (жизнь после смерти, реинкарнация и т.д.).</p></section>
+  <section id="s3"><h2>3. Самый перспективный путь</h2><p>Самый перспективный способ, на мой взгляд, — прогресс науки в области нейрокибернетики, биотехнологий, генетики, клонирования человека и искусственного интеллекта.</p></section>
+  <section id="s4"><h2>4. Пределы современной медицины</h2><p>Сейчас весь прогресс медицины не может гарантировать более 100–120 лет жизни. Существует идея «заморозить» тело и ждать много веков, пока медицина сможет его оживить. Я считаю это научной фантастикой, но ход мысли в целом верен — нужно как-то переждать, пока будущее не даст нам всё необходимое.</p></section>
+  <section id="s5"><h2>5. Жить, а не замораживаться</h2><p>Нет необходимости проводить этот промежуток в замороженном состоянии. Лучше жить, учиться и работать всё это время.</p></section>
+  <section id="s6"><h2>6. Кибернетическое существование</h2><p>Сегодня, в ближайшие 30–40 лет нашей жизни, единственный реальный шанс дождаться бессмертия будущего — кибернетическое существование. Искусственный интеллект почти создан или будет создан в этот период. Это означает, среди прочего, создание искусственного мозга (церебра), который, в отличие от искусственного сердца или почки, даёт настоящее бессмертие сознания — вечную душу.</p></section>
+  <section id="s7"><h2>7. Главная проблема — перенос души</h2><div class="box"><p>Главная проблема — перенос так называемой Души на электронный носитель. Недостаточно просто скопировать память и мысли на жёсткий диск. Это означает лишь клонирование сознания, создание электронного двойника.</p><p>Где находится душа? Должно ли тело умереть или просто заснуть, когда сознание покидает его и переходит в электронную матрицу? А потом, через десяток веков, когда станет возможным загрузить его обратно в тело, генетически выращенное из вашей ДНК (или в любое другое тело на ваш выбор! :)</p></div></section>
+  <section id="s8"><h2>8. Краткое изложение</h2><p>Таковы, вкратце, мои мысли о «практическом бессмертии».</p></section>
+  <section id="s9"><h2>9. Приглашение к обсуждению</h2><p>Я буду благодарен за ваши сообщения, идеи или комментарии любого характера (научные, религиозные или моральные) по этой теме.</p></section>
+  <section id="s10"><h2>10. Источник</h2><p>Оригинальная страница от 12 марта 2005 года:<br><a href="https://web.archive.org/web/20050312170051/http://www.archangel2002.angelcities.com/" target="_blank">web.archive.org</a></p></section>
+</div>
+
+<!-- ========== CHINESE ========== -->
+<div class="lang-block" data-lang="zh">
+  <section id="s1"><header><div class="logo">天使计划</div><div class="sub">实用永生</div></header><div class="line"></div>
+  <h2>1. 简介</h2><p>“实用永生”是指个人人类意识和智力的无限存在，能够与外部世界和他人交流，并无尽地储存知识和经验。</p></section>
+  <section id="s2"><h2>2. 为何很少人关心</h2><p>真正关心这个话题的人很少。要么不相信这是可能的，要么相信其他东西（死后生命、轮回等）。</p></section>
+  <section id="s3"><h2>3. 最有前途的道路</h2><p>我认为最有前途的方式是神经控制论、生物技术、遗传学、人类克隆和人工智能领域的科学进步。</p></section>
+  <section id="s4"><h2>4. 现代医学的局限</h2><p>目前医学的所有进步无法保证超过100-120年的寿命。也存在“冷冻”身体并等待多个世纪直到医学能够使其复活的想法。我认为这是科幻，但思路大体正确——我们需要以某种方式度过这段时间，直到未来给予我们一切。</p></section>
+  <section id="s5"><h2>5. 活着而不是冷冻</h2><p>没有必要在这段间隔期被冷冻。我们更愿意在这段时间里生活、学习和工作。</p></section>
+  <section id="s6"><h2>6. 赛博存在</h2><p>今天，在我们生命接下来的30-40年内，到达未来永生的唯一现实机会是赛博存在。人工智能几乎已经创造或将在这一时期创造出来。这意味着，除其他外，创造出人工大脑（大脑），它不像人工心脏或肾脏，能给予我们意识的真正永生——永恒的灵魂。</p></section>
+  <section id="s7"><h2>7. 核心问题——灵魂转移</h2><div class="box"><p>主要问题是将所谓的灵魂转移到电子载体。仅仅把记忆和思想复制到硬盘上是不够的。这样做只是克隆了意识，创造了一个电子分身。</p><p>灵魂在哪里？当意识离开身体进入电子矩阵时，身体是应该死亡还是仅仅入睡？然后在十几个世纪后，当可以将其下载回由自己的DNA基因工程制造的身体（或任何其他你选择的身体！:）时。</p></div></section>
+  <section id="s8"><h2>8. 思想总结</h2><p>这些，简而言之，就是我对“实用永生”的思考。</p></section>
+  <section id="s9"><h2>9. 邀请讨论</h2><p>我将感谢您关于这个主题的任何性质（科学、宗教或道德）的信息、想法或评论。</p></section>
+  <section id="s10"><h2>10. 原始来源</h2><p>2005年3月12日存
