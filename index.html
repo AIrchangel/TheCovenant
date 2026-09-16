@@ -4,9 +4,58 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Project ANGEL — Applied Immortality</title>
-  <a href="https//:airchangel.gitgub.io/TheCovenant/1.html="btn btn-primary">
-  <i class="bi bi-translate"></i> Версия расширенная
-  </a>
+  <!-- Вставьте этот блок строго ПОД центральным заголовком -->
+<div class="page-styled-container">
+    <a href="1.html" class="page-styled-btn" target="_blank" rel="noopener noreferrer">
+        Открыть страницу файла
+    </a>
+</div>
+
+<style>
+    /* Центрирование и отступы под заголовком */
+    .page-styled-container {
+        text-align: center;
+        margin: 1rem 0 2rem 0;
+        width: 100%;
+    }
+
+    /* Адаптивная кнопка в стиле вашей страницы */
+    .page-styled-btn {
+        display: inline-block;
+        padding: 0.6rem 1.5rem;
+        
+        /* Автоматически наследует шрифт, цвет текста и тему вашего сайта */
+        font-family: inherit;
+        font-size: 1rem;
+        font-weight: 500;
+        text-decoration: none;
+        
+        /* Универсальный стиль: адаптируется под любой фон страницы */
+        color: inherit; 
+        background: transparent;
+        border: 2px solid currentColor; /* Рамка в цвет текста страницы */
+        border-radius: 4px;
+        
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        opacity: 0.85;
+    }
+
+    /* Интерактивные эффекты при наведении */
+    .page-styled-btn:hover {
+        opacity: 1;
+        text-decoration: none;
+        transform: translateY(-1px);
+        /* Мягкая инверсия фона при наведении для интеграции в дизайн */
+        background-color: rgba(128, 128, 128, 0.15); 
+    }
+
+    /* Эффект при клике */
+    .page-styled-btn:active {
+        transform: translateY(0) scale(0.98);
+    }
+</style>
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@300;400;500&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
