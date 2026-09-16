@@ -100,6 +100,20 @@ a{color:#818cf8;text-decoration:none}a:hover{color:#a5b4fc;text-decoration:under
     <button class="lang-btn" data-lang="de">🇩🇪 Deutsch</button>
     <button class="lang-btn" data-lang="it">🇮🇹 Italiano</button>
   </div>
+      <!-- ВСТАВКА ЯВА СКРИПТА -->
+    <script>
+        const buttons = document.querySelectorAll('.nav-btn');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', function() {
+                document.querySelector('.nav-btn.active')?.classList.remove('active');
+                this.classList.add('active');
+            });
+        });
+    </script>
+
+</body>
+</html>
 </div>
 
 <nav><div class="nav-inner" id="nav"></div></nav>
