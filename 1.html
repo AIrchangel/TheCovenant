@@ -84,6 +84,355 @@
     </style>
 </head>
 <body>
+
+    <script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=Li6h_J3j" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.archangel2002.narod.ru/","20201101171807","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1604251087");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+<script type="text/javascript" src="/web/20201101171807js_/http://www.archangel2002.narod.ru/?RdIavIfAFM4njMAJDszHO%3Btc%217r5jz%21I4MDZEmaeKTd6BzsVGE%3B3gxxyZLdvC%5Er8wgz02uIKLSHfGAEwlFAMcGugd%3BXpTS8dc479k0eXzxTttYyWG%5EbMJXM5r9QpIs15kpqXgGyyIOHmf99%21GfR2BbZIrPOGxHDPZ6f8WNaPnjM7JwbOvO%3BW3DABvp%3BbE%3BGN6qRQIR4T37ENUKPmfVu6B8jhkqxeiEqTBmOTQJ2aZ6rxmxBT%5E3NJgpWBkdSEtIdONk4QmFJk0WI0MZCG"></script><script type="text/javascript"></script>
+	<script type="text/javascript">new Image().src = "//web.archive.org/web/20201101171807/http://counter.yadro.ru/hit;narodadst1?r"+escape(document.referrer)+(screen&&";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth||screen.pixelDepth))+";u"+escape(document.URL)+";"+Date.now();</script>
+	<script type="text/javascript">new Image().src = "//web.archive.org/web/20201101171807/http://counter.yadro.ru/hit;narod_desktop_ad?r"+escape(document.referrer)+(screen&&";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth||screen.pixelDepth))+";u"+escape(document.URL)+";"+Date.now();</script><script type="text/javascript" src="//web.archive.org/web/20201101171807js_/http://www.archangel2002.narod.ru/.s/src/jquery-3.3.1.min.js"></script><script type="text/javascript" src="//web.archive.org/web/20201101171807js_/http://s207.ucoz.net/cgi/uutils.fcg?a=uSD&amp;ca=2&amp;ug=999&amp;isp=0&amp;r=0.981549887977074"></script>
+<a href="https://web.archive.org/web/20201101171807/http://twitter.com/Archangel2002" class="twitter-follow-button" data-text-color="#FFFFFF" data-link-color="#add8e6" data-show-count="false" data-lang="ru">Follow @Archangel2002 </a>
+
+<html xmlns:myad>
+
+<head>
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript">
+dCol='000000';//date colour.
+fCol='000000';//face colour.
+sCol='000000';//seconds colour.
+mCol='000000';//minutes colour.
+hCol='000000';//hours colour.
+ClockHeight=40;
+ClockWidth=40;
+ClockFromMouseY=0;
+ClockFromMouseX=90;
+
+d=new Array("ВОСКРЕСЕНЬЕ","ПОНЕДЕЛЬНИК","ВТОРНИК","СРЕДА","ЧЕТВЕРГ","ПЯТНИЦА","СУББОТА");
+m=new Array("ЯНВАРЯ ПРОЕКТ АНГЕЛ","ФЕВРАЛЯ ПРОЕКТ АНГЕЛ","МАРТА ПРОЕКТ АНГЕЛ","АПРЕЛЯ ПРОЕКТ АНГЕЛ","МАЯ ПРОЕКТ АНГЕЛ","ИЮНЯ ПРОЕКТ АНГЕЛ","ИЮЛЯ ПРОЕКТ АНГЕЛ","АВГУСТА ПРОЕКТ АНГЕЛ","СЕНТЯБРЯ ПРОЕКТ АНГЕЛ","ОКТЯБРЯ ПРОЕКТ АНГЕЛ","НОЯБРЯ ПРОЕКТ АНГЕЛ","ДЕКАБРЯ ПРОЕКТ АНГЕЛ");
+date=new Date();
+day=date.getDate();
+year=date.getYear();
+if (year < 2000) year=year+1900; 
+TodaysDate=" "+d[date.getDay()]+" "+day+" "+m[date.getMonth()]+" "+year;
+D=TodaysDate.split('');
+H='...';
+H=H.split('');
+M='....';
+M=M.split('');
+S='.....';
+S=S.split('');
+Face='1 2 3 4 5 6 7 8 9 10 11 12';
+font='Arial';
+size=2;
+speed=0.4;
+ns=(document.layers);
+ie=(document.all);
+Face=Face.split(' ');
+n=Face.length; 
+a=size*10;
+ymouse=0;
+xmouse=0;
+scrll=0;
+props="<font face="+font+" size="+size+" color="+fCol+"><B>";
+props2="<font face="+font+" size="+size+" color="+dCol+"><B>";
+Split=360/n;
+Dsplit=360/D.length;
+HandHeight=ClockHeight/4.5
+HandWidth=ClockWidth/4.5
+HandY=-7;
+HandX=-2.5;
+scrll=0;
+step=0.06;
+currStep=0;
+y=new Array();x=new Array();Y=new Array();X=new Array();
+for (i=0; i < n; i++){y[i]=0;x[i]=0;Y[i]=0;X[i]=0}
+Dy=new Array();Dx=new Array();DY=new Array();DX=new Array();
+for (i=0; i < D.length; i++){Dy[i]=0;Dx[i]=0;DY[i]=0;DX[i]=0}
+if (ns){
+for (i=0; i < D.length; i++)
+document.write('<layer name="nsDate'+i+'" top=0 left=0 height='+a+' width='+a+'><center>'+props2+D[i]+'</font></center></layer>');
+for (i=0; i < n; i++)
+document.write('<layer name="nsFace'+i+'" top=0 left=0 height='+a+' width='+a+'><center>'+props+Face[i]+'</font></center></layer>');
+for (i=0; i < S.length; i++)
+document.write('<layer name=nsSeconds'+i+' top=0 left=0 width=15 height=15><font face=Arial size=3 color='+sCol+'><center><b>'+S[i]+'</b></center></font></layer>');
+for (i=0; i < M.length; i++)
+document.write('<layer name=nsMinutes'+i+' top=0 left=0 width=15 height=15><font face=Arial size=3 color='+mCol+'><center><b>'+M[i]+'</b></center></font></layer>');
+for (i=0; i < H.length; i++)
+document.write('<layer name=nsHours'+i+' top=0 left=0 width=15 height=15><font face=Arial size=3 color='+hCol+'><center><b>'+H[i]+'</b></center></font></layer>');
+}
+if (ie){
+document.write('<div id="Od" style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+for (i=0; i < D.length; i++)
+document.write('<div id="ieDate" style="position:absolute;top:0px;left:0;height:'+a+';width:'+a+';text-align:center">'+props2+D[i]+'</B></font></div>');
+document.write('</div></div>');
+document.write('<div id="Of" style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+for (i=0; i < n; i++)
+document.write('<div id="ieFace" style="position:absolute;top:0px;left:0;height:'+a+';width:'+a+';text-align:center">'+props+Face[i]+'</B></font></div>');
+document.write('</div></div>');
+document.write('<div id="Oh" style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+for (i=0; i < H.length; i++)
+document.write('<div id="ieHours" style="position:absolute;width:16px;height:16px;font-family:Arial;font-size:16px;color:'+hCol+';text-align:center;font-weight:bold">'+H[i]+'</div>');
+document.write('</div></div>');
+document.write('<div id="Om" style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+for (i=0; i < M.length; i++)
+document.write('<div id="ieMinutes" style="position:absolute;width:16px;height:16px;font-family:Arial;font-size:16px;color:'+mCol+';text-align:center;font-weight:bold">'+M[i]+'</div>');
+document.write('</div></div>')
+document.write('<div id="Os" style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+for (i=0; i < S.length; i++)
+document.write('<div id="ieSeconds" style="position:absolute;width:16px;height:16px;font-family:Arial;font-size:16px;color:'+sCol+';text-align:center;font-weight:bold">'+S[i]+'</div>');
+document.write('</div></div>')
+}
+(ns)?window.captureEvents(Event.MOUSEMOVE):0;
+function Mouse(evnt){
+ymouse = (ns)?evnt.pageY+ClockFromMouseY-(window.pageYOffset):event.y+ClockFromMouseY;
+xmouse = (ns)?evnt.pageX+ClockFromMouseX:event.x+ClockFromMouseX;
+}
+(ns)?window.onMouseMove=Mouse:document.onmousemove=Mouse;
+function ClockAndAssign(){
+time = new Date ();
+secs = time.getSeconds();
+sec = -1.57 + Math.PI * secs/30;
+mins = time.getMinutes();
+min = -1.57 + Math.PI * mins/30;
+hr = time.getHours();
+hrs = -1.575 + Math.PI * hr/6+Math.PI*parseInt(time.getMinutes())/360;
+if (ie){
+Od.style.top=window.document.body.scrollTop;
+Of.style.top=window.document.body.scrollTop;
+Oh.style.top=window.document.body.scrollTop;
+Om.style.top=window.document.body.scrollTop;
+Os.style.top=window.document.body.scrollTop;
+}
+for (i=0; i < n; i++){
+ var F=(ns)?document.layers['nsFace'+i]:ieFace[i].style; 
+ F.top=y[i] + ClockHeight*Math.sin(-1.0471 + i*Split*Math.PI/180)+scrll;
+ F.left=x[i] + ClockWidth*Math.cos(-1.0471 + i*Split*Math.PI/180);
+ }
+for (i=0; i < H.length; i++){
+ var HL=(ns)?document.layers['nsHours'+i]:ieHours[i].style;
+ HL.top=y[i]+HandY+(i*HandHeight)*Math.sin(hrs)+scrll;
+ HL.left=x[i]+HandX+(i*HandWidth)*Math.cos(hrs);
+ }
+for (i=0; i < M.length; i++){
+ var ML=(ns)?document.layers['nsMinutes'+i]:ieMinutes[i].style;
+ ML.top=y[i]+HandY+(i*HandHeight)*Math.sin(min)+scrll;
+ ML.left=x[i]+HandX+(i*HandWidth)*Math.cos(min);
+ }
+for (i=0; i < S.length; i++){
+ var SL=(ns)?document.layers['nsSeconds'+i]:ieSeconds[i].style;
+ SL.top=y[i]+HandY+(i*HandHeight)*Math.sin(sec)+scrll;
+ SL.left=x[i]+HandX+(i*HandWidth)*Math.cos(sec);
+ }
+for (i=0; i < D.length; i++){
+ var DL=(ns)?document.layers['nsDate'+i]:ieDate[i].style; 
+ DL.top=Dy[i] + ClockHeight*1.5*Math.sin(currStep+i*Dsplit*Math.PI/180)+scrll;
+ DL.left=Dx[i] + ClockWidth*1.5*Math.cos(currStep+i*Dsplit*Math.PI/180);
+ }
+currStep-=step;
+}
+function Delay(){
+scrll=(ns)?window.pageYOffset:0;
+Dy[0]=Math.round(DY[0]+=((ymouse)-DY[0])*speed);
+Dx[0]=Math.round(DX[0]+=((xmouse)-DX[0])*speed);
+for (i=1; i < D.length; i++){
+Dy[i]=Math.round(DY[i]+=(Dy[i-1]-DY[i])*speed);
+Dx[i]=Math.round(DX[i]+=(Dx[i-1]-DX[i])*speed);
+}
+y[0]=Math.round(Y[0]+=((ymouse)-Y[0])*speed);
+x[0]=Math.round(X[0]+=((xmouse)-X[0])*speed);
+for (i=1; i < n; i++){
+y[i]=Math.round(Y[i]+=(y[i-1]-Y[i])*speed);
+x[i]=Math.round(X[i]+=(x[i-1]-X[i])*speed);
+}
+ClockAndAssign();
+setTimeout('Delay()',20);
+}
+if (ns||ie)window.onload=Delay;
+
+</script>
+
+
+
+<title>Проект АНГЕЛ</title>
+<center>
+<body background="https://web.archive.org/web/20201101171807im_/http://archangel2002.narod.ru/f624.jpg">
+<center> <td style="filter: alpha(opacity=90);"> <img src="https://web.archive.org/web/20201101171807im_/http://archangel2002.narod.ru/0.jpg" height="100" width="100"> 
+<p align="center"><font color="#FF00FF" style="font-size: 10pt">
+
+
+
+Внимание! Объявляется конкурс на лучший сценарий/книгу на тему или с упоминанием Проекта АНГЕЛ.
+<br>
+Лучшие произведения будут переданы на рассмотрение братьям Вачовски :) + Т.Бекмамбетову (который "Ночной Дозор" снял) на предмет экранизации
+<p align="center"><font color="#003333" style="font-size: 24pt">
+Проект АНГЕЛ
+<br>
+</font> 
+<div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'https://web.archive.org/web/20201101171807/http://archagel2002.narod.ru', 'user' : 974276, 'server' : '3', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2012-01-17', 'lang' : 'ru', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://web.archive.org/web/20201101171807/http://www3.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="https://web.archive.org/web/20201101171807/http://www3.clustrmaps.com/user/2e7eddc4"><img src="https://web.archive.org/web/20201101171807im_/http://www3.clustrmaps.com/stats/maps-no_clusters/archagel2002.narod.ru-thumb.jpg" alt="Locations of visitors to this page"/></a></noscript>
+
+
+<p align="center"><font color="#FFFF47" style="font-size: 20pt">
+
+<a href="https://web.archive.org/web/20201101171807/http://www.archangel2002.narod.ru/question.html">Орден Хранителей "Золотые Ангелы"</a></p> 
+</font> 
+
+
+<p align="center"><font color="#000000">
+<p><a href="https://web.archive.org/web/20201101171807/http://archangel2002.narod.ru/eng.html">ENGLISH Version (brief)</a></p> 
+<br>
+</font> 
+<p align="center"><font color="#000000">
+
+&quot;Практическое бессмертие&quot;, т.е. неограниченное во времени существование конкретного человеческого сознания, разума с возможностью его общения с окружающим миром, людьми, бесконечным накапливанием опыта и знаний, созиданием и самосовершенствованием - первым шагом на пути к Абсолютному знанию (уровню Бога:). 
+<br>
+
+<br><br>
+<script language="javascript" src="https://web.archive.org/web/20201101171807js_/http://narod.yandex.ru/survey/surveyjs.xhtml?id=271879"></script>
+
+<br><br>
+<a href="https://web.archive.org/web/20201101171807/http://archangel2002.narod.ru/opros.html">Хотели бы Вы жить вечно? (результаты опроса)</a>
+
+ <br><br>
+<br>Мало кого эта тема волнует по-настоящему :). Либо люди в это не верят, либо верят во что-то другое (жизнь после смерти итд.)
+<br>Прилагательное &quot;практическое&quot; должно подчеркнуть реальный характер бессмертия, а не абстрактное &quot;переселение душ&quot;, используемое в различных религиозно-мистических учениях.
+<br>Основным способом достижения данной цели мне видится научный прогресс, а конкретнее, ряд перспективных научных направлений в области изучения человеческого мозга, биотехнологий, генетики, клонирования, а также <a href="https://web.archive.org/web/20201101171807/http://narod.yandex.ru/userforum/message.xhtml?owner=archangel2002&amp;message_id=995603&amp;thread_id=971418&amp;nickname=&amp;email=&amp;vari=2">систем искусственного интеллекта</a>. 
+<br><br>В настоящее время все научные достижения не гарантируют поддержание человеческой жизни на срок более 120 лет. Предложения о &quot;заморозке&quot; человека с тем, чтобы &quot;оживить&quot; его лет через 500, когда можно будет клонировать и пересаживать любые человеческие органы, представляются мне малонаучными, хотя идея, в принципе, правильна -&quot;переждать&quot; какой-то срок, чтобы дождаться крупных прорывов в науке. 
+<br>На данном этапе - в пределах 30-40 лет нашей с Вами активной жизни, единственный реальный шанс &quot;ухватиться&quot; за бессмертие - это кибернетический организм. Искусственный интеллект практически создан или будет создан в этот промежуток времени - это означает, кроме прочего, и появление <a href="https://web.archive.org/web/20201101171807/http://www.cnews.ru/newtop/index.shtml?2003/03/14/141940">"искусственного" мозга</a>  (процессоров-имплантантов, нейронных сетей - саморазвивающихся и самообучающихся и т.п.), который, в отличие от искусственного сердца или почки, вечен (в смысле сохранения информации - сознания). Технически в этот отрезок времени появится возможность и копирования человеческой памяти в &quot;электронную&quot; форму. Но если Ваше сознание просто скопировать в компьютер - это будет всего лишь Ваш клон - электронный &quot;двойник&quot;. Здесь и появляется проблема &quot;души&quot; - как именно, где именно находится человеческое сознание, Ваше Я. Образно говоря, как перегрузить &quot;душу&quot; в компьютер? Погибнет ли биологический носитель - Ваше тело, или просто сознание - эл.импульсы, смогут свободно перемещаться из нейронов на электронный носитель? А лет через 500 - и обратно в Ваше тело, выращенное из  сохраненной ДНК (или генетически созданной по Вашему коду ДНК (или не Вашей, а в любое тело на заказ :)
+<br>Собираю любую информацию по данной тематике, в т.ч. научную, философскую, морально-этические аспекты итд. 
+<br>
+<p align="center"><font color="#FF00FF" style="font-size: 12pt">
+Отвечу на интересующие Вас вопросы -
+спрашивайте - Проект развивается!
+</font> 
+<br>
+
+<br>
+<p align="center"><font color="#003333" style="font-size: 22pt">
+ЦЕЛЬ Проекта АНГЕЛ
+</font> 
+<br>
+<p align="center"><font color="#000000">
+Проект АНГЕЛ преследует, в первую очередь, информационную и целеполагающую задачи. У каждого человека есть цели в жизни - краткосрочного, среднесрочного и долгосрочного характера. И, соответственно, человек действует в направлении достижения своих целей - сходить в кино, закончить институт, заработать миллион, завести семью итд. Наибольшую "трудность" вызывают долгосрочные цели, являющиеся, по сути, ответом на извечный вопрос о смысле жизни. Для чего я живу? В чем смысл, какова цель моего существования? Каждый определяет это для себя сам - или вообще избегает такой постановки вопроса. Фактически, данная область "передана" в ведение религии, которая, по сути, является лишь разновидностью научных гипотез, объясняющих строение мира и смысл жизни человека каждая на свой лад. В рамках данного проекта планируется сформулировать и донести до заинтересованных лиц НОВУЮ (хотя и не принципиально:) концепцию, частично базирующуюся на теориях ноосферы Вернадского и <a href="https://web.archive.org/web/20201101171807/http://www.psylib.ukrweb.net/books/shard01/index.htm ">теогенезиса Т. де Шардена</a>, и, по сути, являющуюся <a href="https://web.archive.org/web/20201101171807/http://www.membrana.ru/forum/philosophy.html">МЕТАРЕЛИГИЕЙ</a>, формирующей целостную картину мира, причин его появления и целей развития -  по сути - универсальной системой, объединяющей существующие религиозные (умозрительные) и научные (доказанные на практике) взгляды на наше существование, и дающей позитивную долгосрочную мотивацию для ее приверженцев. В настоящее время открыты вакансии 10 Апостолов (требуются незаурядные личности и специалисты по следующим направлениям - искусственный интеллект, информационные технологии, нейрохирургия, генетика, психология, искусство, религия, политика, экономика, право) (еще 2 вакансии -Апостола Пиара и Апостола Любви уже зарезервированы:), Епископов (региональных представителей), а также проводится конкурс на название для Метарелигии, ее логотип и организационное устройство. Основной приз - практическое бессмертие. Достичь этого планируется путем мобилизации научного и экономического потенциала Человечества на направлениях, указанных выше, что произойдет благодаря осознанию и принятию элитой (в качестве конкретной и долгосрочной цели) задачи по достижению практического бессмертия и привлекательности данной цели для способных ее осознать. Выявить таких людей и помогает тест-вопрос <br><a href="https://web.archive.org/web/20201101171807/http://www.askme.ru/list.ghtml?Align_s=0&amp;p_id=379&amp;action=Show&amp;ID=17143">"Хотите ли Вы жить вечно?"</a>
+<br>
+<p align="center"><font color="#001111" style="font-size: 22pt">
+ОСНОВНЫЕ ПОСТУЛАТЫ
+</font> 
+<br>
+<p align="center"><font color="#000000"><br><br>
+1. Бессмертие теоретически достижимо
+<br><br>
+2. Прогресс науки позволит воплотить эту теорию в практику
+<br><br>
+3. Каждый человек сможет получить практическое бессмертие - если захочет, или отказаться от него в любой момент
+<br><br>
+4. Никаких "тайных знаний для избранных" - только <a href="https://web.archive.org/web/20201101171807/http://narod.yandex.ru/userforum/message.xhtml?owner=archangel2002&amp;message_id=1381173&amp;thread_id=995598&amp;nickname=&amp;email=&amp;vari=2">успех, труд и любовь</a> 
+позволят достичь бессмертия <br>(Проект РАЙ)
+
+
+<br><br>
+5. Бессмертие - лишь Первый шаг на пути познания Вселенной и Эволюции самого человека. Причем можно говорить о двух этапах Эволюции. <a href="https://web.archive.org/web/20201101171807/http://books.rusf.ru/unzip/add-on/xussr_mr/nemnem06.htm?1/2">Эволюция I</a> разделит само Человечество - на Смертных, кто по каким-либо причинам откажется от бессмертия, и Полубогов, которым, по каким-либо причинам (амбиции, эгоизм, итд), оно потребуется. Переход из одного состояния в другое будет возможен - но различия будут нарастать. Можно сказать, что этот этап уже начинается... <br><br>
+
+<br><br>
+6. Эволюция II  - это уже <a href="https://web.archive.org/web/20201101171807/http://whatisthematrix.warnerbros.com/">конкуренция</a> между Полубогами и Искусственным Интеллектом  - хотя бы за блоки памяти и энергопитание :) В реальности, скорее, это будет жесткий выбор, но его не избежать - <a href="https://web.archive.org/web/20201101171807/http://www.terminator3.com/">КТО станет главным</a> - все более умные машины или человеческий интеллект, хотя и с "апгрейдами". Тут уже задача Полубогов - защита Смертных, по сути, своих внуков и правнуков. Будут и другие <a href="https://web.archive.org/web/20201101171807/http://www.dvdportal.ru/review.php?chapter_id=3&amp;review_id=610">задачи</a>...  
+<br><br>
+7. Второй шаг - Абсолютное Знание, к которому стремится Человечество - недостижимо для конкретного человека, не достигшего личного бессмертия, но достижимо для Человечества в целом - поэтому Пути Смертных и Полубогов на этом этапе могут сойтись...
+<br><br>
+8. Обладая двумя идеальными качествами - Бесконечной жизнью и Абсолютным Знанием - любой человек достигает "уровня Бога" <br><a href="https://web.archive.org/web/20201101171807/http://narod.yandex.ru/userforum/message.xhtml?owner=archangel2002&amp;message_id=3990661&amp;thread_id=3855170&amp;nickname=&amp;email=&amp;vari=2">(Проект БОГ)</a> 
+
+<br><br> Здесь требуется разъяснение :) <br>
+1) - для верующих - человек реально достигает уровня "образа и подобия Божьего", допустим, типа ангела;<br>
+2) - для атеистов - человек достигает полного контроля над силами и законами природы - вплоть до воссоздания Вселенной и т.д.
+<br><br>
+9. С этого момента, вероятно, история развития мира от Абсолютного Хаоса к Абсолютному Порядку заканчивается - во всяком случае для Человечества. <br>Наступит эра Богов
+<br><br>
+10. Возможно, время будет остановлено - или повернуто вспять, возможно, будут открыты или созданы параллельные миры - трудно предугадать Волю Божью, но одна идейка есть :), а именно: 
+возможно, Большой Взрыв и рождение нашей Вселенной - это реализация инициативной группой Богов в далеком будущем очередного Проекта на основе "прорывных" технологий пространства-времени. Цель - появление их самих в результате вышеуказанной эволюции: <br><a href="https://web.archive.org/web/20201101171807/http://kulichki.com/moshkow/ADAMS/rhit1.txt">(Проект ВСЕЛЕННАЯ)</a>
+
+<br><br>
+(Кстати, это не противоречит религиозным концепциям мироустройства - формально Бог создает Вселенную (или уже создавал не раз - Дыхание Брахмы) - зато отвечает на вопрос - откуда взялся сам Бог :) На этом этапе Пути религии и науки сходятся окончательно...в виде МЕТАРЕЛИГИИ
+<br><br>
+Желающим принять участие в Проекте, а также имеющим вопросы, предложения или возражения - просьба оставлять информацию в гостевой книге, на форуме или присылать по электронной почте <a href="https://web.archive.org/web/20201101171807/mailto:archangel2002@narod.ru">archangel2002@narod.ru</a>
+<br>
+<p align="center"><font color="#000000">
+<a href="https://web.archive.org/web/20201101171807/http://narod.yandex.ru/userforum/?owner=archangel2002">ФОРУМ</a></p> 
+<br>
+<p><a href="https://web.archive.org/web/20201101171807/http://www.archangel2002.narod.ru/news.html">НОВОСТИ</a></p> <br>
+<p><a href="https://web.archive.org/web/20201101171807/http://www.archangel2002.narod.ru/diss.html">ДИСКУССИИ</a></p> 
+<br>
+<p><a href="https://web.archive.org/web/20201101171807/http://www.archangel2002.narod.ru/links.html">ССЫЛКИ</a></p> 
+<br>
+<p><a href="https://web.archive.org/web/20201101171807/http://www.archangel2002.narod.ru/press.html">СТАТЬИ</a></p> 
+<br>
+<p><a href="https://web.archive.org/web/20201101171807/http://www.archangel2002.narod.ru/okolo.html">ОКОЛОНАУЧНАЯ ТЕМАТИКА</a></p> 
+<br>
+<p><a href="https://web.archive.org/web/20201101171807/http://www.archangel2002.narod.ru/art.html">ФИЛЬМЫ, КНИГИ</a></p> 
+<br>
+<p><a href="https://web.archive.org/web/20201101171807/http://www.archangel2002.narod.ru/h.html">ЮМОР</a></p> 
+<br>
+<br>
+
+
+А также буду благодарен за Ваши комментарии и ссылки на аналогичные статьи и ресурсы
+
+<br>
+<p align="center"><font color="#000000">
+<a href="https://web.archive.org/web/20201101171807/http://archangel2002.narod.ru/gb/">ГОСТЕВАЯ КНИГА</a></p>
+
+</td>
+</tr>
+
+	<td width="200"><img src="https://web.archive.org/web/20201101171807im_/http://narod.yandex.ru/images/index_templ/601/d-t.gif" width="2" height="1" hspace="99"></td>
+	<td width="1"><img src="https://web.archive.org/web/20201101171807im_/http://narod.yandex.ru/images/index_templ/601/d-t.gif" width="1" height="1"></td>
+	<td width="15"><img src="https://web.archive.org/web/20201101171807im_/http://narod.yandex.ru/images/index_templ/601/d-t.gif" width="1" height="1" hspace="7"></td>
+	<td width="285"><img src="https://web.archive.org/web/20201101171807im_/http://narod.yandex.ru/images/index_templ/601/d-t.gif" width="1" height="1" hspace="142"></td>
+</tr>
+</table>
+
+<br>
+<meta http-equiv="Page-Enter" content="progid:DXImageTransform.Microsoft.Fade(Duration=1)"><br>
+<meta http-equiv="Page-Exit" content="progid:DXImageTransform.Microsoft.Fade(Duration=1)"><br>
+<br>
+<br><center><img src="https://web.archive.org/web/20201101171807im_/http://www.narod.ru/counter.xhtml"></center><br>
+<!-- copyright (i1) --><div align="center"><a href="https://web.archive.org/web/20201101171807/http://www.ucoz.ru/" title="Создать сайт бесплатно"><img style="margin:0;padding:0;border:0;" alt="Hosted by uCoz" src="https://web.archive.org/web/20201101171807im_/http://s207.ucoz.net/img/cp/5.gif" width="80" height="15" title="Hosted by uCoz"/></a><br/></div><!-- /copyright -->
+</body></html><!--
+     FILE ARCHIVED ON 17:18:07 Nov 01, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:26:52 Sep 16, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.336
+  exclusion.robots: 0.027
+  exclusion.robots.policy: 0.021
+  esindex: 0.006
+  cdx.remote: 277.279
+  LoadShardBlock: 149.982 (3)
+  PetaboxLoader3.datanode: 76.721 (4)
+  PetaboxLoader3.resolve: 133.996 (2)
+  load_resource: 111.232
+-->
+
+    
     <div class="container">
         <header>
             <h1>Проект АНГЕЛ</h1>
